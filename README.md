@@ -8,17 +8,19 @@ To get started with a personalized pet, follow these simple steps.
 
 ![2.png](https://webaverse.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F260ade28-b032-4fa7-9255-7303626e7c31%2F1.png?table=block&id=185c2a54-a322-4621-93ee-a3af36eddeb6&spaceId=5ebd5855-84d8-460f-8af7-2e686fd0ecc5&width=2000&userId=&cache=v2)
 
-2.. Add your own .glb model into the repo —- Or just use one of the existing models that’s already there. 
+2. Add your own .glb model into the repo —- Or just use one of the existing models that’s already there.
+
 3. Next, open the .metaversefile and edit it.
 
 ![3.png](https://webaverse.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F23897c24-81fd-4df2-b255-d12a02664245%2F2.png?table=block&id=0788970d-1924-4632-a01d-fc24319d164b&spaceId=5ebd5855-84d8-460f-8af7-2e686fd0ecc5&width=2000&userId=&cache=v2)
 
 4. Search the file for “.glb” ****and update the reference ******from “****.glb***” to the name of the model you want to use (i.e., ***“mymodel.glb”* ).  ****Then save and commit the changes. For more information about .metaversefile, look [here](https://www.notion.so/metaversefile-628e2c46f49345dfa68a2eab7b89d3f5).
+
 ![image](https://user-images.githubusercontent.com/64185677/169270615-1a38d671-cc5f-4e05-b522-f57858f9ddda.png)
 
 5. Your model is now ready to be used in any Webaverse scene! There’s just one last step required in order to reference it from a hosted Webaverse installation: enable the GitHub Page on your repo. Head over to the settings for the repo, go to the Pages section, set the branch as master and save it. Finally, make a note of the GitHub page URL for later.
 
-![image](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/981b5832-a6a4-4a89-8314-edd6a10a6e30/bandicam_2022-02-19_22-29-09-026.mp4)
+![mp4](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/981b5832-a6a4-4a89-8314-edd6a10a6e30/bandicam_2022-02-19_22-29-09-026.mp4)
 
 6. You can use any of our template scenes or make your own. To add a model in a template scene, go the **“app/scenes”** folder in your cloned Webaverse app and open any of the .scn files.
 7. Copy and paste this into the .scn file right before the closing “]” bracket.
